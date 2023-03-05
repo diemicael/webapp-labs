@@ -55,7 +55,7 @@ jobs:
 
   push-image:
     name: Enviando Imagem para o DockerHub
-    need: tests
+    needs: tests
     runs-on: ubuntu-latest
 
     steps:
